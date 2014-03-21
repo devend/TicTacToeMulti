@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">iRsEfO44j1T1JuzWqJDQVWQKBi9siY8Q</property>
+    <property name="acs-oauth-key-production" type="string">FHv6KZvqaLcZSfKevOBwRQJvGcXjEmMM</property>
+    <property name="acs-api-key-production" type="string">en5h12W1PqhCQ0sCi9u2MOXbv84V71CX</property>
+    <property name="acs-oauth-secret-development" type="string">vl0S9i4ND25jGpWfDDLjOSZHPhusYK9w</property>
+    <property name="acs-oauth-key-development" type="string">eskZtpoJIN1JNzIZppGwVKM7R9LNgJkG</property>
+    <property name="acs-api-key-development" type="string">2N6lDvqbRPEf5kpXYcGaLewMyOk9mCqR</property>
+    <id>se.devend.tictactoemulti</id>
+    <name>TicTacToe</name>
+    <version>1.0</version>
+    <publisher>Daniel</publisher>
+    <url>http://devend.se</url>
+    <description>Multiplayer TicTacToe</description>
+    <copyright>2013 by Daniel</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>73ede648-931a-4021-80d5-9fe711591030</guid>
+    <property name="ti.ui.defaultunit" type="string">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules/>
+    <deployment-targets>
+        <target device="tizen">false</target>
+        <target device="blackberry">false</target>
+        <target device="android">false</target>
+        <target device="ipad">false</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">false</target>
+    </deployment-targets>
+    <sdk-version>3.2.2.GA</sdk-version>
+</ti:app>

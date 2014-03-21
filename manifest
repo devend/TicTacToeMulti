@@ -1,0 +1,9 @@
+#appname:TicTacToe
+#appid:se.devend.tictactoemulti
+#type:mobile
+#guid:73ede648-931a-4021-80d5-9fe711591030
+#version:1.0
+#publisher:Daniel
+#url:http://devend.se
+#image:appicon.png
+#desc:Multiplayer TicTacToe
