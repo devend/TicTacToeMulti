@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <property name="acs-oauth-secret-production" type="string">iRsEfO44j1T1JuzWqJDQVWQKBi9siY8Q</property>
-    <property name="acs-oauth-key-production" type="string">FHv6KZvqaLcZSfKevOBwRQJvGcXjEmMM</property>
-    <property name="acs-api-key-production" type="string">en5h12W1PqhCQ0sCi9u2MOXbv84V71CX</property>
-    <property name="acs-oauth-secret-development" type="string">vl0S9i4ND25jGpWfDDLjOSZHPhusYK9w</property>
-    <property name="acs-oauth-key-development" type="string">eskZtpoJIN1JNzIZppGwVKM7R9LNgJkG</property>
-    <property name="acs-api-key-development" type="string">2N6lDvqbRPEf5kpXYcGaLewMyOk9mCqR</property>
     <id>se.devend.tictactoemulti</id>
     <name>TicTacToe</name>
     <version>1.0</version>
